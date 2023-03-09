@@ -1,0 +1,6 @@
+demo_test:
+  tracker               : "strongsort" # [strongsort, bytetracker]
+  detection_model_path  : "weights/yolov8s-seg.pt"
+  reid_model_path       : "weights/osnet_x0_25_msmt17.pt"
+  save_video_path       : "./demo.avi"
+
